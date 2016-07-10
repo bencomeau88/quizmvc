@@ -139,6 +139,7 @@ $(document).ready(function() {
         if (choice === myModel.getCorrect(count)){
             score++;
             
+            
         }
         count++;
         if(count < QUESTIONS.length){
